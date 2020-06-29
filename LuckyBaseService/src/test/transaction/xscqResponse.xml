@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312"?>
+<root>
+    <data>
+        <cqdjbh>${cqdjbh}</cqdjbh>（产权登记编号，取输入的产权证号的受理编号）
+        <fwbm>${fwbh}</fwbm>（房屋编码，取不动产单元号）
+        <cqzh>${cqzh}</cqzh>（产权证号）
+        <xm>${xm}</xm>（姓名）
+        <zjhm>${zjhm}</zjhm>（证件号码）
+        <fwzl>${fwzl}</fwzl>（房屋坐落）
+        <zh>${zh}</zh>（幢号）
+        <fh>${fh}</fh>（房号，取权籍房间号）
+        <gyfs>${gyfs}</gyfs>（共有方式）
+        <gyfe>${gyfe}</gyfe>（共有份额）
+        <zcs>${zcs}</zcs>（总层数）
+        <szcs>${szcs}</szcs>（所在层数）
+        <jg>${jg}</jg>（结构）
+        <yt>${yt}</yt>（用途）
+        <yt2>${yt2}</yt2>（用途大类，取权籍户室表中房屋类型字段）
+        <jyfs>${jyfs}</jyfs>（交易方式）
+        <jm>${jm}</jm>（建面，建筑面积）
+        <sbgz>${sbgz}</sbgz>（申报估值，取房产价值）
+        <fwcqrq>${fwcqrq}</fwcqrq>（房屋产权日期，取登簿日期）
+        <szqx>${szqx}</szqx>（所在区县，用不动产单元号转义）
+        <cfzt>${cfzt}</cfzt>（此处应填写查封现势数量，后面其他限制权利同样规则，如果没有则返回0）
+        <dyzt>${dyzt}</dyzt>
+        <ygzt>${ygzt}</ygzt>
+        <yyzt>${yyzt}</yyzt>
+        <fwxz>${fwxz}</fwxz>（房屋性质）
+        <tdxz>${tdxz}</tdxz>（土地性质，用不动产单元号转义）
+        <tdjyfs>${tdjyfs}</tdjyfs>（土地交易方式，取土地权利性质）
+        <jznd>${jznd}</jznd>（建筑年度，如果没有值，则返回空字符串）
+    </data>
+
+</root>
+

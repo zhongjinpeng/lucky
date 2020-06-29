@@ -1,0 +1,84 @@
+2020-05-08 09:10:09.665 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-05-08 09:10:10.444 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-08 09:10:11.882 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-08 09:10:12.454 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-08 09:10:12.598 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 09:14:39.060 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 09:14:45.488 [http-nio-18000-exec-6] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 09:14:45.488 [http-nio-18000-exec-6] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 09:20:12.605 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 09:30:12.612 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 09:40:12.618 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 09:50:12.619 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 09:59:36.992 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 10:00:12.626 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 10:01:07.677 [http-nio-18000-exec-1] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 10:01:07.677 [http-nio-18000-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 10:02:53.225 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 10:06:06.161 [http-nio-18000-exec-1] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 10:06:06.162 [http-nio-18000-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 10:08:01.585 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 10:10:12.618 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 10:16:48.955 [http-nio-18000-exec-1] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 10:16:48.956 [http-nio-18000-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 10:20:12.623 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 10:30:12.628 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 10:40:12.632 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 10:50:12.638 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 11:00:12.636 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 11:10:12.643 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 11:20:12.644 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 11:30:12.652 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 11:42:29.508 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 11:42:57.403 [http-nio-18000-exec-9] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 11:42:57.405 [http-nio-18000-exec-9] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 12:16:43.261 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 12:16:47.044 [http-nio-18000-exec-7] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 12:16:47.044 [http-nio-18000-exec-7] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 12:55:40.748 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 12:55:52.347 [http-nio-18000-exec-4] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 12:55:52.347 [http-nio-18000-exec-4] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:01:26.357 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 13:01:41.843 [http-nio-18000-exec-7] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:01:41.843 [http-nio-18000-exec-7] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:13:36.338 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 13:14:02.755 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 13:14:04.265 [http-nio-18000-exec-3] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:14:04.265 [http-nio-18000-exec-3] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:18:43.002 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 13:18:47.198 [http-nio-18000-exec-10] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:18:47.201 [http-nio-18000-exec-10] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:24:49.681 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 13:24:56.920 [http-nio-18000-exec-7] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:24:56.920 [http-nio-18000-exec-7] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:33:39.003 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 13:33:50.957 [http-nio-18000-exec-1] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:33:50.957 [http-nio-18000-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 13:42:31.166 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 13:52:31.169 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 14:02:31.176 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 14:12:31.181 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 14:22:31.181 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 14:32:31.189 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 14:42:31.197 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 14:52:31.215 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 15:02:31.220 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 15:12:31.223 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 15:22:31.222 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 15:32:31.231 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 15:42:31.235 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 15:52:02.649 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for STUDENTSERVICE/192.168.8.236:StudentService:18100
+2020-05-08 15:52:15.905 [http-nio-18000-exec-8] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 15:52:15.906 [http-nio-18000-exec-8] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): STUDENTSERVICE - 192.168.8.236:StudentService:18100
+2020-05-08 15:55:41.715 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 16:05:41.715 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 16:15:41.729 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 16:25:41.733 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 16:35:41.753 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 17:10:20.506 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-05-08 17:10:21.357 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-08 17:10:22.539 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-08 17:10:23.104 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-08 17:10:23.244 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 17:20:23.250 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-08 17:30:23.242 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry

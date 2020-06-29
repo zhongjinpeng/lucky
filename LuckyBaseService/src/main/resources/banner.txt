@@ -1,0 +1,22 @@
+${AnsiColor.BRIGHT_MAGENTA}
+${AnsiColor.BRIGHT_MAGENTA}       ,--,                                 ,-.
+${AnsiColor.BRIGHT_MAGENTA}       ,--.'|                             ,--/ /|
+${AnsiColor.BRIGHT_MAGENTA}       |  | :            ,--,           ,--. :/ |
+${AnsiColor.BRIGHT_MAGENTA}       :  : '          ,'_ /|           :  : ' /
+${AnsiColor.BRIGHT_MAGENTA}       |  ' |     .--. |  | :    ,---.  |  '  /        .--,
+${AnsiColor.BRIGHT_MAGENTA}       '  | |   ,'_ /| :  . |   /     \ '  |  :      /_ ./|
+${AnsiColor.BRIGHT_MAGENTA}       |  | :   |  ' | |  . .  /    / ' |  |   \  , ' , ' :
+${AnsiColor.BRIGHT_MAGENTA}       '  : |__ |  | ' |  | | .    ' /  '  : |. \/___/ \: |
+${AnsiColor.BRIGHT_MAGENTA}       |  | '.'|:  | : ;  ; | '   ; :__ |  | ' \ \.  \  ' |
+${AnsiColor.BRIGHT_MAGENTA}       ;  :    ;'  :  `--'   \'   | '.'|'  : |--'  \  ;   :
+${AnsiColor.BRIGHT_MAGENTA}       |  ,   / :  ,      .-./|   :    :;  |,'      \  \  ;
+${AnsiColor.BRIGHT_MAGENTA}       ---`-'   `--`----'     \   \  / '--'         :  \  \
+${AnsiColor.BRIGHT_MAGENTA}                               `----'                \  ' ;
+${AnsiColor.BRIGHT_MAGENTA}                                                       `--`
+
+ ::
+ :: Author : 仲金鹏
+ :: Email : jpzhong1994@gmail.com
+ :: ${spring.application.name} Version : ${version}
+ :: Java Version : ${java.version} ${java.vm.vendor} , Boot Version : ${spring-boot.version}
+ ::

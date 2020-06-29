@@ -1,0 +1,39 @@
+2020-05-18 13:58:51.710 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-05-18 13:58:52.382 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-18 13:58:53.558 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-18 13:58:54.100 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-18 13:58:54.201 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 13:58:59.255 [http-nio-18000-exec-1] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: LUCKYBASESERVICE - 192.168.8.236:LuckyBaseService
+2020-05-18 13:58:59.256 [http-nio-18000-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): LUCKYBASESERVICE - 192.168.8.236:LuckyBaseService
+2020-05-18 14:08:54.204 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 14:18:54.203 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 14:28:54.207 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 14:38:54.205 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 14:41:27.778 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for LUCKYBASESERVICE/192.168.8.236:LuckyBaseService
+2020-05-18 14:48:54.215 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 14:58:54.219 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 15:08:54.225 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 15:18:54.222 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 15:28:54.230 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 15:38:54.245 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 15:48:54.250 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 15:53:33.782 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for LUCKYBASESERVICE/192.168.8.236:LuckyBaseService:18001
+2020-05-18 15:58:54.255 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 16:00:31.491 [http-nio-18000-exec-4] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: LUCKYBASESERVICE - 192.168.8.236:LuckyBaseService:18001
+2020-05-18 16:00:31.492 [http-nio-18000-exec-4] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): LUCKYBASESERVICE - 192.168.8.236:LuckyBaseService:18001
+2020-05-18 16:05:12.793 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for LUCKYBASESERVICE/192.168.8.236:LuckyBaseService:18001
+2020-05-18 16:05:42.513 [http-nio-18000-exec-8] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: LUCKYBASESERVICE - 192.168.8.236:LuckyBaseService:18001
+2020-05-18 16:05:42.514 [http-nio-18000-exec-8] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): LUCKYBASESERVICE - 192.168.8.236:LuckyBaseService:18001
+2020-05-18 16:08:54.264 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 16:09:27.161 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for LUCKYBASESERVICE/192.168.8.236:LuckyBaseService:18001
+2020-05-18 16:09:31.116 [http-nio-18000-exec-5] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: LUCKYBASESERVICE - 192.168.8.236:LuckyBaseService:18001
+2020-05-18 16:09:31.116 [http-nio-18000-exec-5] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): LUCKYBASESERVICE - 192.168.8.236:LuckyBaseService:18001
+2020-05-18 16:18:54.262 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 16:29:29.821 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 16:36:25.337 [Eureka-EvictionTimer] WARN  c.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for LUCKYBASESERVICE/192.168.8.236:LuckyBaseService:18001
+2020-05-18 16:39:29.826 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 16:49:29.831 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 16:59:29.843 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 17:09:29.844 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 17:19:29.856 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-05-18 17:29:29.866 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="url" value="${spring.datasource.url}" />
+        <property name="username" value="${spring.datasource.username}" />
+        <property name="password" value="${spring.datasource.password}" />
+
+        <!-- 最大连接池数量 -->
+        <property name="maxActive" value="20" />
+        <!-- 初始化时建立物理连接的个数 -->
+        <property name="initialSize" value="1" />
+        <!-- 最小连接池数量 -->
+        <property name="minIdle" value="1" />
+        <!-- 获取连接时最大等待时间，单位毫秒 -->
+        <property name="maxWait" value="60000" />
+
+        <!-- 是否缓存preparedStatement，也就是PSCache,PSCache对支持游标的数据库性能提升巨大，比如说oracle,在mysql下建议关闭。-->
+        <property name="poolPreparedStatements" value="false" />
+        <!-- 要启用PSCache，必须配置大于0，当大于0时，poolPreparedStatements自动触发修改为true。在Druid中，不会存在Oracle下PSCache占用内存过多的问题，可以把这个数值配置大一些，比如说100 -->
+        <property name="maxOpenPreparedStatements" value="20" />
+
+        <!-- 配置检测可以关闭的空闲连接间隔时间 -->
+        <property name="timeBetweenEvictionRunsMillis" value="60000" />
+        <!-- 配置连接在池中的最小生存时间 -->
+        <property name="minEvictableIdleTimeMillis" value="300000" />
+        <!-- 配置连接在池中的最大生存时间 -->
+        <property name="maxEvictableIdleTimeMillis" value="400000" />
+
+
+        <!-- 建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效 -->
+        <property name="testWhileIdle" value="true" />
+        <!-- 申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能 -->
+        <property name="testOnBorrow" value="false" />
+        <!-- 归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能 -->
+        <property name="testOnReturn" value="false" />
+        <property name="validationQuery" value="SELECT 'x' "/>
+
+        <!-- 配置监控统计拦截的filters,属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有：<br />监控统计用的filter:stat<br />日志用的filter:logback<br />防御sql注入的filter:wall-->
+        <property name="filters" value="stat,wall,slf4j" />
+
+        <property name="asyncInit" value="true" />
+    </bean>
+
+</beans>

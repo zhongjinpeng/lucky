@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<root>
+    <data>
+        <htbh>${htbh}</htbh>
+        <cqdjbh>${cqdjbh}</cqdjbh>（产权登记编号，取输入的合同号关联的受理编号，如果未办理则返回空字符串）
+        <fwbm>${fwbh}</fwbm>（此处应填写不动产单元编号）
+        <cqzh>${cqzh}}</cqzh>（产权证号，取输入的合同号关联的业务的新出的证号，如果未登簿则返回空字符串）
+        <qlrxz>${qlrxz}</qlrxz>（权利人性质，是转让方还是受让方）
+        <xm>${xm}</xm>
+        <zjhm>${zjhm}</zjhm>
+        <gyfs>${gyfs}</gyfs>
+        <gyfe>${gyfe}}</gyfe>（如果为共同共有或者单独所有，返回空字符串）
+        <jyfs>${jyfs}</jyfs>
+        <fwzl>${fwzl}</fwzl>
+        <zcs>${zcs}</zcs>
+        <szcs>${szcs}</szcs>
+        <yt>${yt}</yt>
+        <jg>${jg}</jg>
+        <fwxz>${fwxz}</fwxz>
+        <jm>${jm}</jm>
+        <sbgz>${sbgz}</sbgz>
+        <cqbj>${cqbj}</cqbj>（产权标记，临时或现势）
+        <jd>${jd}</jd>（阶段，返回业务办理环节名称）
+        <xzqy>${xzqy}</xzqy>
+        <fwcqrq>${fwcqrq}</fwcqrq>
+    </data>
+</root>
