@@ -1,7 +1,10 @@
 server:
-  port: 18001
+  port: 18098
 spring:
   profiles:
     active: dev
   application:
-    name: LuckyOrganization
+    name: lumin
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

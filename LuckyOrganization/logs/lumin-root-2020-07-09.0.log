@@ -1,0 +1,42 @@
+2020-07-09 17:13:50.831 [main] INFO  c.l.s.o.LuckyOrganizationApplicationTests - The following profiles are active: dev
+2020-07-09 17:13:51.737 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-09 17:13:51.740 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-09 17:13:51.782 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-07-09 17:13:52.131 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=81e5797c-4635-37b0-9926-28638bdca1a4
+2020-07-09 17:13:52.947 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-09 17:13:54.009 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-09 17:13:54.217 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-09 17:13:54.217 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-09 17:13:54.226 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-09 17:13:54.226 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-09 17:13:54.535 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 17:13:55.850 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-07-09 17:13:55.969 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-09 17:13:56.006 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-07-09 17:13:56.076 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-09 17:13:56.270 [Druid-ConnectionPool-Create-1014435252] ERROR com.alibaba.druid.pool.DruidDataSource - create connection SQLException, url: jdbc:mysql://61.232.72.11:3306/test01?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true, errorCode 1130, state HY000
+java.sql.SQLException: null,  message from server: "Host '218.94.2.162' is not allowed to connect to this MySQL server"
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779)
+2020-07-09 17:13:56.365 [main] INFO  c.l.s.o.LuckyOrganizationApplicationTests - Started LuckyOrganizationApplicationTests in 7.243 seconds (JVM running for 8.381)
+2020-07-09 17:13:56.782 [SpringContextShutdownHook] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2020-07-09 17:13:56.785 [SpringContextShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application LUCKYBASESERVICE with eureka with status DOWN
+2020-07-09 17:13:56.818 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 17:13:56.823 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-07-09 17:13:56.825 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

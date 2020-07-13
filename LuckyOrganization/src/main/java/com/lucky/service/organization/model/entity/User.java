@@ -9,8 +9,8 @@ import lombok.EqualsAndHashCode;
 import org.springframework.data.annotation.Id;
 
 /**
- * @author: <a href="mailto:jpzhong1994@gmail.com">zhongjinpeng</a>
- * @version: v1.0
+ * @author <a href="mailto:jpzhong1994@gmail.com">zhongjinpeng</a>
+ * @version v1.0
  */
 @Api
 @ApiModel
