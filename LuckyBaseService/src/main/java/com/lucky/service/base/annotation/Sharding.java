@@ -1,5 +1,7 @@
-package com.lucky.service.base.aop;
+package com.lucky.service.base.annotation;
 
+
+import com.lucky.service.base.sharding.strategy.table.ShardingTableStrategy;
 
 /**
  * 通过注解进行元数据的标记哪些表的SQL需要被拦截重写,将该注解标记在mybatis的mapper接口上，便可以在拦截器中获取分库分表规则
@@ -17,6 +19,12 @@ public @interface Sharding {
     boolean sharding() default true;
 
     /**
+     * 是否自动建表
+     * @return true or false
+     */
+    boolean createTable() default true;
+
+    /**
      * 库名
      * @return 数据库名称
      */
@@ -30,7 +38,7 @@ public @interface Sharding {
 
     /**
      * 分表策略
-     * @see ShardingStrategy
+     * @see ShardingTableStrategy
      * @return 分表策略
      */
     String strategy();
@@ -39,7 +47,7 @@ public @interface Sharding {
      * 分表数量
      * @return 分表数量
      */
-    int count();
+    int count() default 0;
 
 
 }

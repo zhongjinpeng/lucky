@@ -1,11 +1,11 @@
-package com.lucky.service.base.sharding.strategy;
+package com.lucky.service.base.sharding.strategy.database;
 
 /**
  * 分库策略:
  * @author <a href="mailto:jpzhong1994@gmail.com">zhongjinpeng</a>
  * @version 1.0
  * @date 2020/7/14 14:18
- *
+ * @description TODO
  */
 public interface ShardingDataBaseStrategy {
 

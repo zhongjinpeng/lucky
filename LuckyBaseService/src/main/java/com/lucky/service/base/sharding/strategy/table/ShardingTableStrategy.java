@@ -1,4 +1,4 @@
-package com.lucky.service.base.sharding.strategy;
+package com.lucky.service.base.sharding.strategy.table;
 
 
 import com.lucky.service.base.annotation.Sharding;

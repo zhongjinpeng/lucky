@@ -10,7 +10,7 @@ import com.lucky.service.base.annotation.Sharding;
  * @date 2020/7/13 16:28
  *
  */
-public class HashShardingTableStrategyWithDataBase extends AbstractShardingTableStrategy {
+public class HashShardingTableStrategy extends AbstractShardingTableStrategy {
 
     @Override
     public Integer calculateTableSuffix(Sharding sharding, String shardingKey) {
