@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author: <a href="mailto:jpzhong1994@gmail.com">zhongjinpeng</a>
- * @version: v1.0
+ * @author <a href="mailto:jpzhong1994@gmail.com">zhongjinpeng</a>
+ * @version v1.0
  */
 @Api
 @Slf4j

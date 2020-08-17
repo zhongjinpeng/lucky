@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * @author: <a href="mailto:jpzhong1994@gmail.com">zhongjinpeng</a>
- * @version: v1.0
+ * @author <a href="mailto:jpzhong1994@gmail.com">zhongjinpeng</a>
+ * @version v1.0
  */
 @SpringBootApplication
 @MapperScan("com.lucky.service.organization.dao")

@@ -2,7 +2,7 @@ spring:
   ## mysql数据库连接信息配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.100.55.116:3306/lucky_organization?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://47.100.55.116:3306/lucky_organization?allowMultiQueries=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
     username: root
     password: lucky1212
   redis:
