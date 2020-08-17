@@ -13,7 +13,12 @@ import com.lucky.service.base.annotation.Sharding;
 public class HashShardingTableStrategy extends AbstractShardingTableStrategy {
 
     @Override
-    public Integer calculateTableSuffix(Sharding sharding, String shardingKey) {
+    public String getCreateTableSql() {
+        return null;
+    }
+
+    @Override
+    public Integer calculateTableSuffix(Sharding sharding, Object shardingKey) {
         return Math.abs(shardingKey.hashCode()) % sharding.count();
     }
 }

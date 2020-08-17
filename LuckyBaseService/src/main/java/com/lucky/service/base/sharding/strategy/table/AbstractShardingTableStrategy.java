@@ -23,7 +23,7 @@ public abstract class AbstractShardingTableStrategy implements ShardingTableStra
     }
 
     @Override
-    public String getTargetTableName(Sharding sharding, String shardingKey) {
+    public String getTargetTableName(Sharding sharding, Object shardingKey) {
         Integer tableSuffix = calculateTableSuffix(sharding, shardingKey);
         ShardingTableInfo shardingTableInfo = shardingDataSourceInfoMap.get(sharding.databaseName());
         if (shardingTableInfo != null) {
@@ -32,7 +32,7 @@ public abstract class AbstractShardingTableStrategy implements ShardingTableStra
         return getTableName(sharding.tableName(), tableSuffix);
     }
 
-    public String getTableName(String tableName, Integer shardingKey) {
+    private String getTableName(String tableName, Integer shardingKey) {
         return tableName + UNDERLINE + shardingKey;
     }
 

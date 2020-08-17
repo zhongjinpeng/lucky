@@ -3,6 +3,11 @@ package com.lucky.service.base.annotation;
 
 import com.lucky.service.base.sharding.strategy.table.ShardingTableStrategy;
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
 /**
  * 通过注解进行元数据的标记哪些表的SQL需要被拦截重写,将该注解标记在mybatis的mapper接口上，便可以在拦截器中获取分库分表规则
  * @author <a href="mailto:jpzhong1994@gmail.com">zhongjinpeng</a>
@@ -10,6 +15,8 @@ import com.lucky.service.base.sharding.strategy.table.ShardingTableStrategy;
  * @date 2020/7/13 16:03
  *
  */
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.TYPE})
 public @interface Sharding {
 
     /**
@@ -19,10 +26,16 @@ public @interface Sharding {
     boolean sharding() default true;
 
     /**
-     * 是否自动建表
+     * 是否自动建表or建库
      * @return true or false
      */
     boolean createTable() default true;
+
+    /**
+     * 分表因子
+     * @return 分表因子
+     */
+    String shardingKey();
 
     /**
      * 库名

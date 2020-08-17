@@ -21,7 +21,14 @@ public interface ShardingTableStrategy {
      * @param shardingKey 分库分表因子
      * @return 带分表位的实际表名
      */
-    String getTargetTableName(Sharding sharding, String shardingKey);
+    String getTargetTableName(Sharding sharding, Object shardingKey);
+
+    /**
+     * 获取自动建表的sql
+     *
+     * @return sql
+     */
+    String getCreateTableSql();
 
     /**
      * 计算分表
@@ -30,5 +37,5 @@ public interface ShardingTableStrategy {
      * @param shardingKey 分库分表因子
      * @return 计算分表
      */
-    Integer calculateTableSuffix(Sharding sharding, String shardingKey);
+    Integer calculateTableSuffix(Sharding sharding, Object shardingKey);
 }

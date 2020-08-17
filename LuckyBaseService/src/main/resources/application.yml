@@ -1,20 +1,23 @@
 server:
   port: 18001
 spring:
-  application:
-    name: LuckyBaseService
   # banner位置
   banner:
     location: classpath:banner.txt
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.100.55.116:3306/lucky_organization?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
-    username: root
-    password: lucky1212
 # 日志位置
 logging:
   config: classpath:spring/logback-spring.xml
-
+# 注册中心
+eureka:
+  instance:
+    ## 注册到eurekaip地址
+    hostname: 47.100.55.116
+    status-page-url: http://localhost:${server.port}/swagger-ui.html
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:18000/eureka/
 #   mysql数据库连接信息配置
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
@@ -52,17 +55,7 @@ logging:
 #      filters: stat,wall,log4j
 
 
-# 注册中心
-eureka:
-  instance:
-    ## 注册到eurekaip地址
-    hostname: 47.100.55.116
-    status-page-url: http://localhost:${server.port}/swagger-ui.html
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:18000/eureka/
+
 
 
 
