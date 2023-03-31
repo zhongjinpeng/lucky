@@ -16,7 +16,7 @@ pnpm eslint --init
 * `.eslintrc.js`文件需要在env字段中添加`node:true`解决eslint找不到module的报错
 * `package.json`的script中添加lint命令 `"lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix"`
 * eslint默认不会解析.vue文件后缀，需要额外配置解析器来解析.vue后缀文件
-```json
+```javascript
    module.exports = {
       "env": {
          "browser": true,
@@ -65,7 +65,7 @@ pnpm add prettier -D
 ```
 ### 插件配置
 * 根目录下新建`prettierrc.js`，添加配置
-```json
+```javascript
 module.exports = {
     // 一行的字符数，如果超过会进行换行，默认为80
     printWidth: 80, 
@@ -231,6 +231,11 @@ module.exports = {
 ### 安装插件
 ```shell
 pnpm add husky -D
+```
+### 插件配置
+`package.json`中的script中添加一条脚本命令`"prepare": "husky install"`
+```shell
+pnpm husky add .husky/pre-commit "pnpm lint && pnpm format && pnpm lint:style"
 ```
 
 
