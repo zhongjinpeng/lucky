@@ -1,14 +1,19 @@
 # 基于 Vue 3 + TypeScript + Vite 构建
 
 ## 路由框架
+
 ```shell
 pnpm install vue-router@4
 ```
+
 ## 全局状态管理框架
+
 ```shell
 pnpm install vuex@4
 ```
+
 ## 前端 http 框架
+
 ```shell
 pnpm install axios
 ```

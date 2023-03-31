@@ -1,4 +1,4 @@
-import { createStore } from 'vuex'
+import { createStore } from "vuex";
 
 const store = createStore({
   state: {
@@ -13,6 +13,6 @@ const store = createStore({
   getters: {
     // 在这里定义您的 getter
   },
-})
+});
 
-export default store
+export default store;
